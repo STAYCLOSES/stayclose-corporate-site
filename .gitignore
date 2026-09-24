@@ -1,0 +1,6 @@
+_diag/
+kanata-3d-reference/
+*.blend
+*.blend1
+.DS_Store
+Thumbs.db

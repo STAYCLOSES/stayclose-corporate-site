@@ -7,7 +7,7 @@
   <title>営業・顧客支援｜株式会社STAYCLOSE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="sales.css" />
 </head>
@@ -48,24 +48,20 @@
 
   <main id="main">
     <section class="sales-hero" id="top" aria-label="営業・顧客支援">
-      <div class="sales-hero-grid">
+      <div class="sales-hero-media" aria-hidden="true">
+        <img class="sales-hero-img" src="../assets/sales/hero-clean-wide-1x.jpg" srcset="../assets/sales/hero-clean-wide-1x.jpg 1024w, ../assets/sales/hero-clean-wide.jpg 2048w" sizes="100vw" alt="" width="1024" height="438" decoding="async" fetchpriority="high" />
+      </div>
+      <div class="sales-hero-inner">
         <div class="sales-hero-copy">
           <p class="eyebrow hero-anim" style="--d:.1s">SALES / SUPPORT / CUSTOMER SUCCESS</p>
-          <h1 class="hero-anim" style="--d:.22s">売るところから、<br>顧客が成功するところまで。</h1>
-          <p class="sales-hero-lead hero-anim" style="--d:.34s">
-            STAYCLOSEは、<br>
-            インサイドセールス、営業支援、<br>
-            カスタマーサポート、カスタマーサクセスまで、<br>
-            営業と顧客対応の現場に入り、<br>
-            成果につながる仕組みづくりを支援します。
-          </p>
-          <div class="sales-hero-actions hero-anim" style="--d:.46s">
+          <h1 class="hero-anim" style="--d:.22s">
+            <span class="sales-hero-line">売れるところから、</span>
+            <span class="sales-hero-line">顧客が成功するところまで。</span>
+          </h1>
+          <div class="sales-hero-actions hero-anim" style="--d:.34s">
             <a class="sales-btn sales-btn-navy" href="mailto:info@stay-close.co.jp">お問い合わせ <span class="btn-arrow" aria-hidden="true">→</span></a>
             <a class="sales-btn sales-btn-ghost" href="#service">支援内容を見る <span class="btn-arrow" aria-hidden="true">→</span></a>
           </div>
-        </div>
-        <div class="sales-hero-visual">
-          <img class="sales-hero-img" src="../assets/sales/hero-visual.jpg" alt="Kanataが男性と握手し、ココとポコが喜んでいる" width="1230" height="1080" decoding="async" fetchpriority="high" />
         </div>
       </div>
     </section>
@@ -253,12 +249,12 @@
         <div class="price-copy reveal">
           <p class="eyebrow">PRICE</p>
           <h2>シンプルでわかりやすい<br>料金体系</h2>
-          <p class="price-lead">業務内容・稼働時間・体制に応じてお見積りします。</p>
+          <p class="price-lead">必要な分だけ、無駄なくご利用いただけます。</p>
         </div>
         <div class="price-box reveal-scale">
-          <p class="price-cat">営業・CS支援</p>
+          <p class="price-cat">時間単価</p>
           <p class="price-value"><span>2,400</span>円 / 時間〜</p>
-          <p class="price-note">※業務内容・稼働時間・体制により変動<br>※詳細はお問い合わせ</p>
+          <p class="price-note">※業務内容・稼働時間・体制により料金は異なります。<br>※詳細はお問い合わせください。</p>
         </div>
         <div class="price-fit reveal-right">
           <p class="price-fit-title">こんな方におすすめ</p>
@@ -276,46 +272,51 @@
         <div class="faq-head reveal">
           <p class="eyebrow">FAQ</p>
           <h2>よくあるご質問</h2>
-          <p>まずは気になる点だけでも、お気軽にご相談ください。</p>
+          <p>その他のご質問も<br>お気軽にお問い合わせください。</p>
         </div>
         <div class="faq-list">
           <details class="faq-item">
-            <summary>少人数からでも依頼できますか？</summary>
+            <summary><span class="faq-q" aria-hidden="true">Q</span>少人数からでも依頼できますか？</summary>
             <div class="faq-answer"><p>はい。まずは少人数・短時間から始めることもできます。体制や業務量に合わせて、必要な分だけご提案します。</p></div>
           </details>
           <details class="faq-item">
-            <summary>短期間でも依頼できますか？</summary>
+            <summary><span class="faq-q" aria-hidden="true">Q</span>短期間でも依頼できますか？</summary>
             <div class="faq-answer"><p>可能です。立ち上げ期間のみ、繁忙期のみなど、期間を区切ったご依頼にも対応しています。</p></div>
           </details>
           <details class="faq-item">
-            <summary>営業スクリプトも作成してもらえますか？</summary>
+            <summary><span class="faq-q" aria-hidden="true">Q</span>営業スクリプトも作成してもらえますか？</summary>
             <div class="faq-answer"><p>はい。架電・メール・チャットなど、現場で使うスクリプトの作成と改善まで行います。</p></div>
           </details>
           <details class="faq-item">
-            <summary>カスタマーサクセスの立ち上げから依頼できますか？</summary>
+            <summary><span class="faq-q" aria-hidden="true">Q</span>カスタマーサクセスの立ち上げから依頼できますか？</summary>
             <div class="faq-answer"><p>はい。オンボーディング設計から運用まで、CS体制の立ち上げからご依頼いただけます。</p></div>
           </details>
           <details class="faq-item">
-            <summary>オペレーター教育も対応できますか？</summary>
+            <summary><span class="faq-q" aria-hidden="true">Q</span>オペレーター教育も対応できますか？</summary>
             <div class="faq-answer"><p>はい。品質基準の整理、ロープレ、スクリプト改善など、教育と品質管理まで支援します。</p></div>
           </details>
+        </div>
+        <div class="faq-mascot reveal">
+          <p class="faq-mascot-text">どんなことでも<br>お気軽に<br>ご相談ください！</p>
+          <img src="../assets/sales/kanata-wave.png" alt="手を振るKanata" loading="lazy" width="695" height="1045" />
         </div>
       </div>
     </section>
 
     <section class="sales-cta" id="contact">
       <div class="sales-cta-bg" aria-hidden="true">
-        <img src="../assets/stayclose-hero-fixed.jpg" alt="" loading="lazy" />
+        <img src="../assets/sales/cta-city.jpg" alt="" loading="lazy" />
       </div>
       <div class="sales-cta-scrim" aria-hidden="true"></div>
+      <p class="cta-script" aria-hidden="true">Let's build<br>a brighter tomorrow<br>together.</p>
       <div class="sales-cta-inner">
         <div class="sales-cta-copy">
           <p class="eyebrow">CONTACT</p>
           <h2>一緒に、もっと先へ。</h2>
           <p>営業・顧客対応の課題がまだ整理できていなくても大丈夫です。<br>現状をお聞きし、最適な支援方法を一緒に考えます。</p>
           <div class="sales-cta-actions">
-            <a class="sales-btn sales-btn-navy" href="mailto:info@stay-close.co.jp">お問い合わせ <span class="btn-arrow" aria-hidden="true">→</span></a>
-            <a class="sales-btn sales-btn-light" href="mailto:info@stay-close.co.jp">資料をダウンロード <span class="btn-arrow" aria-hidden="true">→</span></a>
+            <a class="sales-btn sales-btn-white" href="mailto:info@stay-close.co.jp">お問い合わせ <span class="btn-arrow" aria-hidden="true">→</span></a>
+            <a class="sales-btn sales-btn-blue" href="mailto:info@stay-close.co.jp">資料をダウンロード <span class="btn-arrow" aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
